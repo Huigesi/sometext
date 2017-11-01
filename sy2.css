@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-10-31 16:53:26
+ * @version $Id$
+ */
+body
+{
+    background-color:#D9D9D9;
+}
+ul{
+	list-style:none;
+	width: 500px;
+}
+li{
+	float: right; 
+	padding-right: 10px;
+}
