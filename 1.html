@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script type="text/javascript" src="jquery-1.10.1.js"></script>
+</head>
+<body>
+<div id="div1">aa</div>
+    <script type="text/javascript">
+    $(function(){
+    	var $div1=$("#div1");
+    	var div1=$div1.get(0);
+    	var div1=$div1[0];
+    	alert(div1.innerHTML);
+    	/*var div1=document.getElementById("div1");
+    	var $div1=$(div1);
+    	alert($div1.html());*/
+    });
+    </script>
+</body>
+</html>
